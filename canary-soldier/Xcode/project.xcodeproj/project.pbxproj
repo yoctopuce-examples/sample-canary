@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D52AA1277B02200053C7ED /* osxStartup.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AA0277B02200053C7ED /* osxStartup.c */; };
+		49D52AD9277B02530053C7ED /* yocto_buzzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AA4277B02530053C7ED /* yocto_buzzer.cpp */; };
+		49D52ADA277B02530053C7ED /* yocto_wakeupmonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AA5277B02530053C7ED /* yocto_wakeupmonitor.cpp */; };
+		49D52ADB277B02530053C7ED /* yocto_network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AAA277B02530053C7ED /* yocto_network.cpp */; };
+		49D52ADC277B02530053C7ED /* yocto_display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AAE277B02530053C7ED /* yocto_display.cpp */; };
+		49D52ADD277B02530053C7ED /* yocto_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AB1277B02530053C7ED /* yocto_api.cpp */; };
+		49D52ADE277B02530053C7ED /* yocto_anbutton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AB2277B02530053C7ED /* yocto_anbutton.cpp */; };
+		49D52ADF277B02530053C7ED /* yocto_colorled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AB3277B02530053C7ED /* yocto_colorled.cpp */; };
+		49D52AE0277B02530053C7ED /* ykey.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AB6277B02530053C7ED /* ykey.c */; };
+		49D52AE1277B02530053C7ED /* ymemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AB7277B02530053C7ED /* ymemory.c */; };
+		49D52AE2277B02530053C7ED /* ypkt_osx.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AB9277B02530053C7ED /* ypkt_osx.c */; };
+		49D52AE3277B02530053C7ED /* ypkt_win.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52ABA277B02530053C7ED /* ypkt_win.c */; };
+		49D52AE4277B02530053C7ED /* ythread.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52ABB277B02530053C7ED /* ythread.c */; };
+		49D52AE5277B02530053C7ED /* ytcp.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52ABD277B02530053C7ED /* ytcp.c */; };
+		49D52AE6277B02530053C7ED /* yprog.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52ABF277B02530053C7ED /* yprog.c */; };
+		49D52AE7277B02530053C7ED /* yfifo.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AC2277B02530053C7ED /* yfifo.c */; };
+		49D52AE8277B02530053C7ED /* yhash.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AC4277B02530053C7ED /* yhash.c */; };
+		49D52AE9277B02530053C7ED /* yapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AC7277B02530053C7ED /* yapi.c */; };
+		49D52AEA277B02530053C7ED /* ystream.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AC9277B02530053C7ED /* ystream.c */; };
+		49D52AEB277B02530053C7ED /* yjni.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52ACA277B02530053C7ED /* yjni.c */; };
+		49D52AEC277B02530053C7ED /* ypkt_lin.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52ACC277B02530053C7ED /* ypkt_lin.c */; };
+		49D52AED277B02530053C7ED /* yjson.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AD0277B02530053C7ED /* yjson.c */; };
+		49D52AEE277B02530053C7ED /* yocto_wakeupschedule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AD1277B02530053C7ED /* yocto_wakeupschedule.cpp */; };
+		49D52AEF277B02530053C7ED /* yocto_colorledcluster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AD2277B02530053C7ED /* yocto_colorledcluster.cpp */; };
+		49D52AF0277B02530053C7ED /* yocto_serialport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AD5277B02530053C7ED /* yocto_serialport.cpp */; };
+		49D52AF1277B02530053C7ED /* yocto_messagebox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AD7277B02530053C7ED /* yocto_messagebox.cpp */; };
+		49D52AF2277B02530053C7ED /* yocto_cellular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D52AD8277B02530053C7ED /* yocto_cellular.cpp */; };
+		B8447F5314726957008342F7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8447F5214726957008342F7 /* IOKit.framework */; };
+		B8447F5514726963008342F7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8447F5414726963008342F7 /* CoreFoundation.framework */; };
+		B857C03C17E0C73D00515071 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B857C03B17E0C73D00515071 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8FE64FE1472686800FD11A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49D52AA0277B02200053C7ED /* osxStartup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = osxStartup.c; path = ../osxStartup.c; sourceTree = "<group>"; };
+		49D52AA4277B02530053C7ED /* yocto_buzzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_buzzer.cpp; sourceTree = "<group>"; };
+		49D52AA5277B02530053C7ED /* yocto_wakeupmonitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_wakeupmonitor.cpp; sourceTree = "<group>"; };
+		49D52AA6277B02530053C7ED /* yocto_colorled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_colorled.h; sourceTree = "<group>"; };
+		49D52AA7277B02530053C7ED /* yocto_display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_display.h; sourceTree = "<group>"; };
+		49D52AA8277B02530053C7ED /* yocto_anbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_anbutton.h; sourceTree = "<group>"; };
+		49D52AA9277B02530053C7ED /* yocto_network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_network.h; sourceTree = "<group>"; };
+		49D52AAA277B02530053C7ED /* yocto_network.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_network.cpp; sourceTree = "<group>"; };
+		49D52AAB277B02530053C7ED /* yocto_serialport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_serialport.h; sourceTree = "<group>"; };
+		49D52AAC277B02530053C7ED /* yocto_cellular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_cellular.h; sourceTree = "<group>"; };
+		49D52AAD277B02530053C7ED /* yocto_messagebox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_messagebox.h; sourceTree = "<group>"; };
+		49D52AAE277B02530053C7ED /* yocto_display.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_display.cpp; sourceTree = "<group>"; };
+		49D52AAF277B02530053C7ED /* yocto_buzzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_buzzer.h; sourceTree = "<group>"; };
+		49D52AB0277B02530053C7ED /* yocto_wakeupmonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_wakeupmonitor.h; sourceTree = "<group>"; };
+		49D52AB1277B02530053C7ED /* yocto_api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_api.cpp; sourceTree = "<group>"; };
+		49D52AB2277B02530053C7ED /* yocto_anbutton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_anbutton.cpp; sourceTree = "<group>"; };
+		49D52AB3277B02530053C7ED /* yocto_colorled.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_colorled.cpp; sourceTree = "<group>"; };
+		49D52AB5277B02530053C7ED /* ydef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ydef.h; sourceTree = "<group>"; };
+		49D52AB6277B02530053C7ED /* ykey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ykey.c; sourceTree = "<group>"; };
+		49D52AB7277B02530053C7ED /* ymemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ymemory.c; sourceTree = "<group>"; };
+		49D52AB8277B02530053C7ED /* yhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yhash.h; sourceTree = "<group>"; };
+		49D52AB9277B02530053C7ED /* ypkt_osx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ypkt_osx.c; sourceTree = "<group>"; };
+		49D52ABA277B02530053C7ED /* ypkt_win.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ypkt_win.c; sourceTree = "<group>"; };
+		49D52ABB277B02530053C7ED /* ythread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ythread.c; sourceTree = "<group>"; };
+		49D52ABC277B02530053C7ED /* yjni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yjni.h; sourceTree = "<group>"; };
+		49D52ABD277B02530053C7ED /* ytcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcp.c; sourceTree = "<group>"; };
+		49D52ABE277B02530053C7ED /* yapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yapi.h; sourceTree = "<group>"; };
+		49D52ABF277B02530053C7ED /* yprog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yprog.c; sourceTree = "<group>"; };
+		49D52AC0277B02530053C7ED /* yapi.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yapi.def; sourceTree = "<group>"; };
+		49D52AC1277B02530053C7ED /* yjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yjson.h; sourceTree = "<group>"; };
+		49D52AC2277B02530053C7ED /* yfifo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yfifo.c; sourceTree = "<group>"; };
+		49D52AC3277B02530053C7ED /* ymemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ymemory.h; sourceTree = "<group>"; };
+		49D52AC4277B02530053C7ED /* yhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yhash.c; sourceTree = "<group>"; };
+		49D52AC5277B02530053C7ED /* ykey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ykey.h; sourceTree = "<group>"; };
+		49D52AC6277B02530053C7ED /* ythread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ythread.h; sourceTree = "<group>"; };
+		49D52AC7277B02530053C7ED /* yapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yapi.c; sourceTree = "<group>"; };
+		49D52AC8277B02530053C7ED /* yprog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yprog.h; sourceTree = "<group>"; };
+		49D52AC9277B02530053C7ED /* ystream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ystream.c; sourceTree = "<group>"; };
+		49D52ACA277B02530053C7ED /* yjni.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yjni.c; sourceTree = "<group>"; };
+		49D52ACB277B02530053C7ED /* ytcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ytcp.h; sourceTree = "<group>"; };
+		49D52ACC277B02530053C7ED /* ypkt_lin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ypkt_lin.c; sourceTree = "<group>"; };
+		49D52ACD277B02530053C7ED /* yfifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yfifo.h; sourceTree = "<group>"; };
+		49D52ACE277B02530053C7ED /* yproto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yproto.h; sourceTree = "<group>"; };
+		49D52ACF277B02530053C7ED /* yversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yversion.h; sourceTree = "<group>"; };
+		49D52AD0277B02530053C7ED /* yjson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yjson.c; sourceTree = "<group>"; };
+		49D52AD1277B02530053C7ED /* yocto_wakeupschedule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_wakeupschedule.cpp; sourceTree = "<group>"; };
+		49D52AD2277B02530053C7ED /* yocto_colorledcluster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_colorledcluster.cpp; sourceTree = "<group>"; };
+		49D52AD3277B02530053C7ED /* yocto_wakeupschedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_wakeupschedule.h; sourceTree = "<group>"; };
+		49D52AD4277B02530053C7ED /* yocto_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_api.h; sourceTree = "<group>"; };
+		49D52AD5277B02530053C7ED /* yocto_serialport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_serialport.cpp; sourceTree = "<group>"; };
+		49D52AD6277B02530053C7ED /* yocto_colorledcluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yocto_colorledcluster.h; sourceTree = "<group>"; };
+		49D52AD7277B02530053C7ED /* yocto_messagebox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_messagebox.cpp; sourceTree = "<group>"; };
+		49D52AD8277B02530053C7ED /* yocto_cellular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yocto_cellular.cpp; sourceTree = "<group>"; };
+		49D52AF3277B031C0053C7ED /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../main.h; sourceTree = "<group>"; };
+		B8447F5214726957008342F7 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		B8447F5414726963008342F7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B857C03B17E0C73D00515071 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		B8FE65001472686800FD11A2 /* project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8FE64FD1472686800FD11A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8447F5514726963008342F7 /* CoreFoundation.framework in Frameworks */,
+				B8447F5314726957008342F7 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D52AA3277B02530053C7ED /* YoctoLib */ = {
+			isa = PBXGroup;
+			children = (
+				49D52AA4277B02530053C7ED /* yocto_buzzer.cpp */,
+				49D52AA5277B02530053C7ED /* yocto_wakeupmonitor.cpp */,
+				49D52AA6277B02530053C7ED /* yocto_colorled.h */,
+				49D52AA7277B02530053C7ED /* yocto_display.h */,
+				49D52AA8277B02530053C7ED /* yocto_anbutton.h */,
+				49D52AA9277B02530053C7ED /* yocto_network.h */,
+				49D52AAA277B02530053C7ED /* yocto_network.cpp */,
+				49D52AAB277B02530053C7ED /* yocto_serialport.h */,
+				49D52AAC277B02530053C7ED /* yocto_cellular.h */,
+				49D52AAD277B02530053C7ED /* yocto_messagebox.h */,
+				49D52AAE277B02530053C7ED /* yocto_display.cpp */,
+				49D52AAF277B02530053C7ED /* yocto_buzzer.h */,
+				49D52AB0277B02530053C7ED /* yocto_wakeupmonitor.h */,
+				49D52AB1277B02530053C7ED /* yocto_api.cpp */,
+				49D52AB2277B02530053C7ED /* yocto_anbutton.cpp */,
+				49D52AB3277B02530053C7ED /* yocto_colorled.cpp */,
+				49D52AB4277B02530053C7ED /* yapi */,
+				49D52AD1277B02530053C7ED /* yocto_wakeupschedule.cpp */,
+				49D52AD2277B02530053C7ED /* yocto_colorledcluster.cpp */,
+				49D52AD3277B02530053C7ED /* yocto_wakeupschedule.h */,
+				49D52AD4277B02530053C7ED /* yocto_api.h */,
+				49D52AD5277B02530053C7ED /* yocto_serialport.cpp */,
+				49D52AD6277B02530053C7ED /* yocto_colorledcluster.h */,
+				49D52AD7277B02530053C7ED /* yocto_messagebox.cpp */,
+				49D52AD8277B02530053C7ED /* yocto_cellular.cpp */,
+			);
+			name = YoctoLib;
+			path = ../YoctoLib;
+			sourceTree = "<group>";
+		};
+		49D52AB4277B02530053C7ED /* yapi */ = {
+			isa = PBXGroup;
+			children = (
+				49D52AB5277B02530053C7ED /* ydef.h */,
+				49D52AB6277B02530053C7ED /* ykey.c */,
+				49D52AB7277B02530053C7ED /* ymemory.c */,
+				49D52AB8277B02530053C7ED /* yhash.h */,
+				49D52AB9277B02530053C7ED /* ypkt_osx.c */,
+				49D52ABA277B02530053C7ED /* ypkt_win.c */,
+				49D52ABB277B02530053C7ED /* ythread.c */,
+				49D52ABC277B02530053C7ED /* yjni.h */,
+				49D52ABD277B02530053C7ED /* ytcp.c */,
+				49D52ABE277B02530053C7ED /* yapi.h */,
+				49D52ABF277B02530053C7ED /* yprog.c */,
+				49D52AC0277B02530053C7ED /* yapi.def */,
+				49D52AC1277B02530053C7ED /* yjson.h */,
+				49D52AC2277B02530053C7ED /* yfifo.c */,
+				49D52AC3277B02530053C7ED /* ymemory.h */,
+				49D52AC4277B02530053C7ED /* yhash.c */,
+				49D52AC5277B02530053C7ED /* ykey.h */,
+				49D52AC6277B02530053C7ED /* ythread.h */,
+				49D52AC7277B02530053C7ED /* yapi.c */,
+				49D52AC8277B02530053C7ED /* yprog.h */,
+				49D52AC9277B02530053C7ED /* ystream.c */,
+				49D52ACA277B02530053C7ED /* yjni.c */,
+				49D52ACB277B02530053C7ED /* ytcp.h */,
+				49D52ACC277B02530053C7ED /* ypkt_lin.c */,
+				49D52ACD277B02530053C7ED /* yfifo.h */,
+				49D52ACE277B02530053C7ED /* yproto.h */,
+				49D52ACF277B02530053C7ED /* yversion.h */,
+				49D52AD0277B02530053C7ED /* yjson.c */,
+			);
+			path = yapi;
+			sourceTree = "<group>";
+		};
+		B8FE64F51472686800FD11A2 = {
+			isa = PBXGroup;
+			children = (
+				49D52AF3277B031C0053C7ED /* main.h */,
+				49D52AA3277B02530053C7ED /* YoctoLib */,
+				B857C03B17E0C73D00515071 /* main.cpp */,
+				49D52AA0277B02200053C7ED /* osxStartup.c */,
+				B8447F5414726963008342F7 /* CoreFoundation.framework */,
+				B8447F5214726957008342F7 /* IOKit.framework */,
+				B8FE65011472686800FD11A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8FE65011472686800FD11A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE65001472686800FD11A2 /* project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8FE64FF1472686800FD11A2 /* project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FE650A1472686800FD11A2 /* Build configuration list for PBXNativeTarget "project" */;
+			buildPhases = (
+				B8FE64FC1472686800FD11A2 /* Sources */,
+				B8FE64FD1472686800FD11A2 /* Frameworks */,
+				B8FE64FE1472686800FD11A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = project;
+			productName = project;
+			productReference = B8FE65001472686800FD11A2 /* project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8FE64F71472686800FD11A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Yoctopuce Sàrl";
+			};
+			buildConfigurationList = B8FE64FA1472686800FD11A2 /* Build configuration list for PBXProject "project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8FE64F51472686800FD11A2;
+			productRefGroup = B8FE65011472686800FD11A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FE64FF1472686800FD11A2 /* project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8FE64FC1472686800FD11A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D52AEE277B02530053C7ED /* yocto_wakeupschedule.cpp in Sources */,
+				49D52AF1277B02530053C7ED /* yocto_messagebox.cpp in Sources */,
+				49D52AE2277B02530053C7ED /* ypkt_osx.c in Sources */,
+				49D52AED277B02530053C7ED /* yjson.c in Sources */,
+				49D52AA1277B02200053C7ED /* osxStartup.c in Sources */,
+				49D52AD9277B02530053C7ED /* yocto_buzzer.cpp in Sources */,
+				49D52AE7277B02530053C7ED /* yfifo.c in Sources */,
+				49D52AE9277B02530053C7ED /* yapi.c in Sources */,
+				49D52ADA277B02530053C7ED /* yocto_wakeupmonitor.cpp in Sources */,
+				49D52ADE277B02530053C7ED /* yocto_anbutton.cpp in Sources */,
+				49D52AE5277B02530053C7ED /* ytcp.c in Sources */,
+				49D52ADF277B02530053C7ED /* yocto_colorled.cpp in Sources */,
+				49D52AF2277B02530053C7ED /* yocto_cellular.cpp in Sources */,
+				49D52AE0277B02530053C7ED /* ykey.c in Sources */,
+				49D52AE8277B02530053C7ED /* yhash.c in Sources */,
+				49D52AE3277B02530053C7ED /* ypkt_win.c in Sources */,
+				49D52AE6277B02530053C7ED /* yprog.c in Sources */,
+				49D52AF0277B02530053C7ED /* yocto_serialport.cpp in Sources */,
+				49D52AEF277B02530053C7ED /* yocto_colorledcluster.cpp in Sources */,
+				49D52ADB277B02530053C7ED /* yocto_network.cpp in Sources */,
+				B857C03C17E0C73D00515071 /* main.cpp in Sources */,
+				49D52AEB277B02530053C7ED /* yjni.c in Sources */,
+				49D52AEA277B02530053C7ED /* ystream.c in Sources */,
+				49D52AE1277B02530053C7ED /* ymemory.c in Sources */,
+				49D52AE4277B02530053C7ED /* ythread.c in Sources */,
+				49D52ADC277B02530053C7ED /* yocto_display.cpp in Sources */,
+				49D52ADD277B02530053C7ED /* yocto_api.cpp in Sources */,
+				49D52AEC277B02530053C7ED /* ypkt_lin.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8FE65081472686800FD11A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B8FE65091472686800FD11A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B8FE650B1472686800FD11A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B8FE650C1472686800FD11A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8FE64FA1472686800FD11A2 /* Build configuration list for PBXProject "project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FE65081472686800FD11A2 /* Debug */,
+				B8FE65091472686800FD11A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FE650A1472686800FD11A2 /* Build configuration list for PBXNativeTarget "project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FE650B1472686800FD11A2 /* Debug */,
+				B8FE650C1472686800FD11A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8FE64F71472686800FD11A2 /* Project object */;
+}
