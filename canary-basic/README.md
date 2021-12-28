@@ -1,6 +1,7 @@
 Content of this Example:
 =======================
 
+| file/folder     | description                                         |
 |-----------------|-----------------------------------------------------|
 | main.cpp        | Main source file of the canary software             |
 | main.h          | Interface between main.c and the OS-specific code   |
