@@ -1,6 +1,7 @@
 Content of this Example:
 =======================
 
+---|---
 main.cpp          | Main source file of the canary software
 main.h            | Interface between main.c and the OS-specific code
 winStartup.cpp    | Windows startup code (including run-as-service)
@@ -9,10 +10,10 @@ osxStartup.c      | macOS startup code (no run-as-service code, sorry!)
 GNUmakefile       | Makefile for Linux/macOS
 VisualStudio/     | Visual Studio 2019 project 
 Xcode/            | Xcode Project for macOS
-YoctoLib/*				|	ource code for (a part of) Yoctopuce Library 
-Binaries/*				|	irectory for YoctoLib intermediate object files
+YoctoLib/*        | Source code for (a part of) Yoctopuce Library 
+Binaries/*        | Directory for YoctoLib intermediate object files
 Binaries_Osx/     | Directory that will contains Max OS X executable
-Binaries_Linux/   |	Directory that will contains Linux executable
+Binaries_Linux/   | Directory that will contains Linux executable
 
 Linux Specific Notes :
 ======================
